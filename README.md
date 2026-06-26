@@ -1,7 +1,3 @@
-# README Profile 仓库个人简介
-
----
-
 ## English
 
 ### About Me
