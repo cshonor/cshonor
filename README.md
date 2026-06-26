@@ -1,57 +1,130 @@
-## English
+<div style="color:#f0cd46; font-size:24px; font-weight:bold;">About Me</div>
 
-### About Me
+<br>
 
-I am a passionate computer technology enthusiast, with long-term career orientation focusing on Linux system, Linux kernel principle, high concurrency and low-latency underlying development.
+<div style="color:#eeeeee;">
+I am an enthusiast of computer underlying technology. My study scope covers Linux systems, kernel principles, high concurrency and low latency development.
+</div>
+<div style="color:#cccccc;">
+一名计算机底层技术爱好者，现阶段学习范围围绕Linux体系、内核原理、高并发与低延迟开发展开。
+</div>
+<br>
 
-My core research direction is **HFT quantitative trading development**.
+<div style="color:#eeeeee;">
+My main research interest lies in HFT quantitative trading.
+</div>
+<div style="color:#cccccc;">
+我核心的兴趣落点，是高频量化交易领域。
+</div>
+<br>
+
+<div style="color:#eeeeee;">
 I devote myself to two major capability modules:
+</div>
+<div style="color:#cccccc;">
+我的学习规划分为两大板块：
+</div>
+<br>
 
-- **Bottom layer**: Linux system tuning, memory management, high-performance network stack, DPDK & kernel-level latency optimization
-- **Business layer**: Quantitative timing strategy modeling, time-series analysis and stochastic finance mathematical system
+<div style="color:#eeeeee;">
+<b>Bottom layer</b>：Linux system tuning, memory management, high-performance network stack, DPDK & kernel-level latency optimization
+</div>
+<div style="color:#cccccc;">
+<b>底层基础</b>：Linux系统调优、内存机制、高性能网络、DPDK以及内核层面延迟优化。
+</div>
+<br>
 
-Programming technical stack is mainly based on **Rust & C/C++**.
-I am systematically sorting out personal learning notes, source code analysis and engineering practice cases in this repository.
-In the future, I plan to continuously polish my coding ability, and participate in open-source iterations, feeding back valuable content to the Rust community gradually.
+<div style="color:#eeeeee;">
+<b>Business layer</b>：Quantitative timing strategy modeling, time-series analysis and stochastic finance mathematical system
+</div>
+<div style="color:#cccccc;">
+<b>业务积累</b>：量化策略建模、时序数据分析，以及支撑交易体系的随机数学理论。
+</div>
+<br>
 
-### Learning Archives
+<div style="color:#eeeeee;">
+Programming technical stack is mainly based on Rust & C/C++.
+</div>
+<div style="color:#cccccc;">
+日常主力学习语言为 Rust 与 C/C++。
+</div>
+<br>
 
-- Build complete knowledge chain: Computer architecture → Operating system kernel → Performance observability (BPF) → High concurrency asynchronous programming → Low-latency HFT engineering landing
-- Collate standardized markdown notes, structured catalog management, adhere to iterative update & regular Git automatic submission
-- Independent derivation for mathematical theories of quantitative strategies, separate repository for mathematical system accumulation
+<div style="color:#eeeeee;">
+I am systematically sorting out personal learning notes, source code analysis and practice records in this repository.
+</div>
+<div style="color:#cccccc;">
+这座仓库用来收纳我的学习笔记、源码解读和阶段性实操记录。
+</div>
+<br>
 
-### Outlook
+<div style="color:#eeeeee;">
+Driven by practical demands and interest in quantitative trading, I keep exploring underlying knowledge step by step.
+</div>
+<div style="color:#cccccc;">
+我是一个十分务实的人，钻研底层技术的初衷，源自对量化交易的兴趣与现实收益诉求。
+</div>
+<br>
 
+<div style="color:#eeeeee;">
+In the future, I plan to polish programming capabilities continuously, and contribute my learning insights to the Rust open-source community.
+</div>
+<div style="color:#cccccc;">
+后续我会持续打磨编程能力，未来希望能够向Rust开源社区输出自己的学习见解。
+</div>
+<br>
+
+<div style="color:#eeeeee;">
+I am a man with solid inner beliefs and clear bottom lines.
+</div>
+<div style="color:#cccccc;">
+我内心拥有笃定的信仰，行事拥有清晰的原则与底线。
+</div>
+
+<hr style="border-color:#f0cd46;">
+
+<div style="color:#f0cd46; font-size:22px; font-weight:bold;">Learning Archives</div>
+<br>
+
+<div style="color:#eeeeee;">
+Build complete knowledge chain: Computer architecture → Operating system kernel → Performance observability(BPF) → High concurrency asynchronous programming → Low-latency HFT engineering landing
+</div>
+<div style="color:#cccccc;">
+规划完整的学习链路：计算机体系结构 → 操作系统内核 → BPF性能观测工具 → 高并发异步编程 → HFT低延迟工程实践。
+</div>
+<br>
+
+<div style="color:#eeeeee;">
+Collate standardized markdown notes, structured catalog management, adhere to iterative update & regular Git automatic submission
+</div>
+<div style="color:#cccccc;">
+笔记采用Markdown规范编写，仓库使用结构化英文目录管理，维持迭代更新与Git自动化提交习惯。
+</div>
+<br>
+
+<div style="color:#eeeeee;">
+Independent derivation for mathematical theories of quantitative strategies, separate repository for mathematical system accumulation
+</div>
+<div style="color:#cccccc;">
+量化相关数学内容坚持自主推导演算，单独创建仓库，系统性积累数理功底。
+</div>
+
+<hr style="border-color:#f0cd46;">
+
+<div style="color:#f0cd46; font-size:22px; font-weight:bold;">Outlook</div>
+<br>
+
+<div style="color:#eeeeee;">
 Stick to bottom-up technical learning rhythm, combine system underlying capabilities with quantitative business logic.
-Keep thinking, keep coding, look forward to growing together with open-source ecosystem.
+</div>
+<div style="color:#cccccc;">
+保持由底层向上递进的学习节奏，把系统知识和量化业务逻辑相互结合。
+</div>
+<br>
 
----
-
-## 中文
-
-### 关于本人
-
-一名深耕计算机底层技术的爱好者，长期深耕 Linux 体系、操作系统内核、高并发与低延迟底层开发领域。
-
-核心研究方向：**HFT 高频量化交易开发**。
-能力体系划分为两大板块：
-
-- **底层技术层**：Linux 系统调优、内存管理、高性能网络栈、DPDK 框架以及内核级延迟极致优化
-- **业务策略层**：量化择时策略建模、时序数据分析、随机金融整套数学体系
-
-主力技术栈：**Rust 与 C/C++**。
-本仓库持续归档个人学习笔记、源码剖析以及工程落地实战案例。
-后续会不断打磨编码功底，参与开源共建，逐步向 Rust 开源社区输出沉淀内容。
-
-### 学习档案
-
-- 搭建完整知识链路：计算机组成架构 → 操作系统内核 → BPF 性能可观测体系 → 异步高并发编程 → 低延迟 HFT 项目落地
-- 笔记采用 Markdown 规范编写，仓库目录结构化管理，维持迭代更新 + Git 定时自动提交习惯
-- 量化数学理论坚持自主推导，单独建立仓库统筹数学知识积累
-
-### 未来规划
-
-遵循自底向上的学习节奏，将操作系统底层能力和量化业务逻辑深度融合。
-持续思考，持续编码，期许在开源生态中稳步成长。
-
----
+<div style="color:#eeeeee;">
+Keep thinking, keep coding, look forward to steady progress along my planned path.
+</div>
+<div style="color:#cccccc;">
+保持思考，坚持编码，沿着既定路线稳步精进。
+</div>
