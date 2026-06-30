@@ -2,21 +2,29 @@
 
 <br>
 
+
 <div style="color:#eeeeee;">
-I am an enthusiast of computer underlying technology. My study scope covers Linux systems, kernel principles, high concurrency and low latency development.
-</div>
-<div style="color:#cccccc;">
-一名计算机底层技术爱好者，现阶段学习范围围绕Linux体系、内核原理、高并发与低延迟开发展开。
+I am an enthusiast of underlying‑computer technology.
+My core study scope covers Linux system, kernel principles, high‑concurrency & low‑latency backend development.
+My main programming stacks are C++ and Rust.
 </div>
 <br>
 
-<div style="color:#eeeeee;">
-My main research interest lies in HFT quantitative trading.
-</div>
 <div style="color:#cccccc;">
-我核心的兴趣落点，是高频量化交易领域。
+一名计算机底层技术爱好者，现阶段深耕Linux体系、内核原理、高并发与低延迟后端开发，主力技术栈为C++、Rust。
 </div>
 <br>
+
+
+<div style="color:#eeeeee;">
+My primary research interest lies in HFT quantitative‑trading development.
+As a long‑term secondary path, I also learn embedded‑Linux, aiming to implement self‑built drone flight‑control projects.
+</div>
+<br>
+
+<div style="color:#cccccc;">
+核心主攻方向为高频量化(HFT)后端开发；同时拓展嵌入式‑Linux技术，计划自研无人机飞控项目，作为职业备选路线。
+</div>
 
 <div style="color:#eeeeee;">
 I devote myself to two major capability modules:
