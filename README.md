@@ -29,6 +29,7 @@ As a long‑term secondary path, I also learn embedded‑Linux, aiming to implem
 <div style="color:#eeeeee;">
 I devote myself to two major capability modules:
 </div>
+
 <div style="color:#cccccc;">
 我的学习规划分为两大板块：
 </div>
