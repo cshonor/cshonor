@@ -1,139 +1,154 @@
-<div style="color:#f0cd46; font-size:24px; font-weight:bold;">About Me</div>
+<div align="center">
+
+<!-- Animated Typing Header -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?lines=HFT+Systems+Engineer;Low-Latency+Trading+Infrastructure;Linux+Kernel+Internals;Rust+%2B+C%2FC%2B%2B&center=true&font=Fira+Code&weight=700&color=F0CD46&size=24&pause=1000&width=560&height=120">
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?lines=HFT+Systems+Engineer;Low-Latency+Trading+Infrastructure;Linux+Kernel+Internals;Rust+%2B+C%2FC%2B%2B&center=true&font=Fira+Code&weight=700&color=B8860B&size=24&pause=1000&width=560&height=120">
+  <img src="https://readme-typing-svg.herokuapp.com?lines=HFT+Systems+Engineer;Low-Latency+Trading+Infrastructure;Linux+Kernel+Internals;Rust+%2B+C%2FC%2B%2B&center=true&font=Fira+Code&weight=700&color=F0CD46&size=24&pause=1000&width=560&height=120" alt="Typing SVG">
+</picture>
 
 <br>
 
+[![Study Repo](https://img.shields.io/badge/Study_Repo-hft--embedded--linux--study-F0CD46?style=flat-square)](https://github.com/cshonor/hft-embedded-linux-study)
+[![Profile Views](https://komarev.com/ghpvc/?username=cshonor&style=flat-square&color=F0CD46&label=Profile+Views)](https://github.com/cshonor)
 
-<div style="color:#eeeeee;">
-I am an enthusiast of underlying‑computer technology.
-My core study scope covers Linux system, kernel principles, high‑concurrency & low‑latency backend development.
-My main programming stacks are C++ and Rust.
-</div>
-<br>
-
-<div style="color:#cccccc;">
-一名计算机底层技术爱好者，现阶段深耕Linux体系、内核原理、高并发与低延迟后端开发，主力技术栈为C++、Rust。
-</div>
-<br>
-
-
-<div style="color:#eeeeee;">
-My primary research interest lies in HFT quantitative‑trading development.
-As a long‑term secondary path, I also learn embedded‑Linux, aiming to implement self‑built drone flight‑control projects.
-</div>
-<br>
-
-<div style="color:#cccccc;">
-核心主攻方向为高频量化(HFT)后端开发；同时拓展嵌入式‑Linux技术，计划自研无人机飞控项目，作为职业备选路线。
 </div>
 
-<div style="color:#eeeeee;">
-I devote myself to two major capability modules:
+---
+
+### About
+
+I build **ultra-low-latency trading systems** for high-frequency quantitative trading. My work lives at the intersection of **systems programming**, **kernel-level optimization**, and **quantitative finance**.
+
+从事高频量化交易领域的低延迟系统开发，工作重心落在**系统编程**、**内核级优化**与**量化金融**的交叉地带。
+
+| | |
+|:---|:---|
+| :dart: **Core Focus** | HFT low-latency engineering — kernel tuning, CPU pinning, cache-line optimization |
+| :mag: **Active Research** | Linux kernel internals · eBPF/BPF observability · DPDK · lock-free data structures |
+| :computer: **Primary Stack** | Rust · C · C++ |
+| :books: **Method** | Systematic documentation — structured notes, source analysis, practice records |
+| :telescope: **Direction** | Continuously refining systems capabilities, targeting Rust open-source contributions |
+
+---
+
+### Tech Stack
+
+<table>
+<tr>
+<td align="center" valign="top" width="33%">
+
+**Languages**
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+</td>
+<td align="center" valign="top" width="33%">
+
+**Systems & Tools**
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+![Make](https://img.shields.io/badge/GNU_Make-427819?style=for-the-badge&logo=gnu&logoColor=white)
+
+![GCC](https://img.shields.io/badge/GCC-FF8800?style=for-the-badge&logo=gnu&logoColor=white)
+
+</td>
+<td align="center" valign="top" width="33%">
+
+**Domains**
+
+![Linux Kernel](https://img.shields.io/badge/Linux_Kernel-000000?style=for-the-badge&logo=linux&logoColor=white)
+
+![eBPF](https://img.shields.io/badge/eBPF-FF6600?style=for-the-badge)
+
+![DPDK](https://img.shields.io/badge/DPDK-000000?style=for-the-badge)
+
+![HFT](https://img.shields.io/badge/HFT-F0CD46?style=for-the-badge)
+
+</td>
+</tr>
+</table>
+
+---
+
+### Featured Project
+
+[**hft-embedded-linux-study**](https://github.com/cshonor/hft-embedded-linux-study) &nbsp; — &nbsp; 25 modules · HFT low-latency + embedded Linux knowledge chain
+
+> Computer Architecture &rarr; OS Kernel &rarr; eBPF Observability &rarr; Async Programming &rarr; HFT Engineering
+
+Comprehensive learning notes, source code analysis, and practice records across C, C++, Linux kernel internals, and embedded systems development. Structured catalog with iterative updates and automated Git commits.
+
+---
+
+### Learning Roadmap
+
+```mermaid
+graph LR
+    A[Computer Architecture] --> B[OS Kernel]
+    B --> C[eBPF Observability]
+    C --> D[Async Programming]
+    D --> E[HFT Engineering]
+```
+
+<details>
+<summary>:memo: Module Breakdown</summary>
+
+| Stage | Module | Key Topics |
+|:-----:|:-------|:-----------|
+| 01 | Computer Architecture | CPU cache hierarchy, memory model, instruction pipeline |
+| 02 | Operating Systems | Process scheduling, memory management, system calls |
+| 03 | Performance Observability | eBPF tracing, profiling, hotspot analysis |
+| 04 | High-Concurrency Programming | Event-driven I/O, lock-free structures, zero-copy |
+| 05 | HFT Engineering | Kernel bypass (DPDK), CPU pinning, cache optimization |
+
+</details>
+
+---
+
+### GitHub Stats
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=cshonor&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=F0CD46&icon_color=F0CD46&text_color=C9D1D9&ring_color=F0CD46">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=cshonor&show_icons=true&theme=light&hide_border=true&bg_color=FFFFFF&title_color=B8860B&icon_color=B8860B&text_color=333333&ring_color=B8860B">
+  <img src="https://github-readme-stats.vercel.app/api?username=cshonor&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=F0CD46&icon_color=F0CD46&text_color=C9D1D9" alt="GitHub Stats" height="165">
+</picture>
+
+&nbsp;
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=cshonor&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=F0CD46&text_color=C9D1D9">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=cshonor&layout=compact&theme=light&hide_border=true&bg_color=FFFFFF&title_color=B8860B&text_color=333333">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cshonor&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=F0CD46&text_color=C9D1D9" alt="Top Languages" height="165">
+</picture>
+
+&nbsp;
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=cshonor&theme=dark&hide_border=true&background=0D1117&ring=F0CD46&fire=F0CD46&currStreakLabel=F0CD46&sideLabels=C9D1D9&dates=C9D1D9&currStreakNum=C9D1D9">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=cshonor&theme=light&hide_border=true&background=FFFFFF&ring=B8860B&fire=B8860B&currStreakLabel=B8860B&sideLabels=333333&dates=333333&currStreakNum=333333">
+  <img src="https://streak-stats.demolab.com/?user=cshonor&theme=dark&hide_border=true&background=0D1117&ring=F0CD46&fire=F0CD46&currStreakLabel=F0CD46" alt="GitHub Streak" height="165">
+</picture>
+
 </div>
 
-<div style="color:#cccccc;">
-我的学习规划分为两大板块：
-</div>
-<br>
+---
 
-<div style="color:#eeeeee;">
-<b>Bottom layer</b>：Linux system tuning, memory management, high-performance network stack, DPDK & kernel-level latency optimization
-</div>
-<div style="color:#cccccc;">
-<b>底层基础</b>：Linux系统调优、内存机制、高性能网络、DPDK以及内核层面延迟优化。
-</div>
-<br>
+<div align="center">
 
-<div style="color:#eeeeee;">
-<b>Business layer</b>：Quantitative timing strategy modeling, time-series analysis and stochastic finance mathematical system
-</div>
-<div style="color:#cccccc;">
-<b>业务积累</b>：量化策略建模、时序数据分析，以及支撑交易体系的随机数学理论。
-</div>
-<br>
+**保持思考，坚持编码，沿着既定路线稳步精进。**
 
-<div style="color:#eeeeee;">
-Programming technical stack is mainly based on Rust & C/C++.
-</div>
-<div style="color:#cccccc;">
-日常主力学习语言为 Rust 与 C/C++。
-</div>
-<br>
+*Keep thinking, keep coding — steady progress along a planned path.*
 
-<div style="color:#eeeeee;">
-I am systematically sorting out personal learning notes, source code analysis and practice records in this repository.
-</div>
-<div style="color:#cccccc;">
-这座仓库用来收纳我的学习笔记、源码解读和阶段性实操记录。
-</div>
-<br>
-
-<div style="color:#eeeeee;">
-Driven by practical demands and interest in quantitative trading, I keep exploring underlying knowledge step by step.
-</div>
-<div style="color:#cccccc;">
-我是一个十分务实的人，钻研底层技术的初衷，源自对量化交易的兴趣与现实收益诉求。
-</div>
-<br>
-
-<div style="color:#eeeeee;">
-In the future, I plan to polish programming capabilities continuously, and contribute my learning insights to the Rust open-source community.
-</div>
-<div style="color:#cccccc;">
-后续我会持续打磨编程能力，未来希望能够向Rust开源社区输出自己的学习见解。
-</div>
-<br>
-
-<div style="color:#eeeeee;">
-I am a man with solid inner beliefs and clear bottom lines.
-</div>
-<div style="color:#cccccc;">
-我内心拥有笃定的信仰，行事拥有清晰的原则与底线。
-</div>
-
-<hr style="border-color:#f0cd46;">
-
-<div style="color:#f0cd46; font-size:22px; font-weight:bold;">Learning Archives</div>
-<br>
-
-<div style="color:#eeeeee;">
-Build complete knowledge chain: Computer architecture → Operating system kernel → Performance observability(BPF) → High concurrency asynchronous programming → Low-latency HFT engineering landing
-</div>
-<div style="color:#cccccc;">
-规划完整的学习链路：计算机体系结构 → 操作系统内核 → BPF性能观测工具 → 高并发异步编程 → HFT低延迟工程实践。
-</div>
-<br>
-
-<div style="color:#eeeeee;">
-Collate standardized markdown notes, structured catalog management, adhere to iterative update & regular Git automatic submission
-</div>
-<div style="color:#cccccc;">
-笔记采用Markdown规范编写，仓库使用结构化英文目录管理，维持迭代更新与Git自动化提交习惯。
-</div>
-<br>
-
-<div style="color:#eeeeee;">
-Independent derivation for mathematical theories of quantitative strategies, separate repository for mathematical system accumulation
-</div>
-<div style="color:#cccccc;">
-量化相关数学内容坚持自主推导演算，单独创建仓库，系统性积累数理功底。
-</div>
-
-<hr style="border-color:#f0cd46;">
-
-<div style="color:#f0cd46; font-size:22px; font-weight:bold;">Outlook</div>
-<br>
-
-<div style="color:#eeeeee;">
-Stick to bottom-up technical learning rhythm, combine system underlying capabilities with quantitative business logic.
-</div>
-<div style="color:#cccccc;">
-保持由底层向上递进的学习节奏，把系统知识和量化业务逻辑相互结合。
-</div>
-<br>
-
-<div style="color:#eeeeee;">
-Keep thinking, keep coding, look forward to steady progress along my planned path.
-</div>
-<div style="color:#cccccc;">
-保持思考，坚持编码，沿着既定路线稳步精进。
 </div>
