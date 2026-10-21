@@ -15,7 +15,7 @@
     padding: 40px 20px;
   }
   .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     background: #0d1117;
     border: 1px solid #30363d;
@@ -88,6 +88,11 @@
   .tech-table td { text-align: center; vertical-align: top; width: 33%; border: 1px solid #30363d; padding: 16px; }
   .tech-table p { font-weight: 600; color: #f0f6fc; margin-bottom: 12px; }
   .mermaid { text-align: center; margin: 16px 0; }
+  .repos td:nth-child(2) { width: 80px; text-align: right; color: #f0cd46; font-weight: 600; }
+  .repos td:nth-child(3) { color: #8b949e; }
+  .ladder td:first-child { width: 60px; font-weight: 600; color: #f0cd46; }
+  .modules td:first-child { width: 70px; color: #f0cd46; font-weight: 600; }
+  .modules td:nth-child(2) { width: 22%; font-family: "Fira Code", Consolas, monospace; color: #79c0ff; }
 </style>
 </head>
 <body>
@@ -95,7 +100,7 @@
 
 <!-- Header -->
 <div class="center">
-  <img src="https://readme-typing-svg.herokuapp.com?lines=HFT+Systems+Engineer;Low-Latency+Trading+Infrastructure;Linux+Kernel+Internals;Rust+%2B+C%2FC%2B%2B&center=true&font=Fira+Code&weight=700&color=F0CD46&size=24&pause=1000&width=560&height=120" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?lines=HFT+Systems+Engineer;Low-Latency+Trading+Infrastructure;Linux+Kernel+Internals;eBPF+%2B+DPDK+%2B+Rust&center=true&font=Fira+Code&weight=700&color=F0CD46&size=24&pause=1000&width=560&height=120" alt="Typing SVG">
   <br>
   <div class="badge-row">
     <img src="https://img.shields.io/badge/Study_Repo-hft--embedded--linux--study-F0CD46?style=flat-square" alt="Study Repo">
@@ -110,11 +115,11 @@
 <p>I build <strong>ultra-low-latency trading systems</strong> for high-frequency quantitative trading. My work lives at the intersection of <strong>systems programming</strong>, <strong>kernel-level optimization</strong>, and <strong>quantitative finance</strong>.</p>
 <p>从事高频量化交易领域的低延迟系统开发，工作重心落在<strong>系统编程</strong>、<strong>内核级优化</strong>与<strong>量化金融</strong>的交叉地带。</p>
 <table>
-  <tr><td>:dart: <strong>Core Focus</strong></td><td>HFT low-latency engineering — kernel tuning, CPU pinning, cache-line optimization</td></tr>
-  <tr><td>:mag: <strong>Active Research</strong></td><td>Linux kernel internals · eBPF/BPF observability · DPDK · lock-free data structures</td></tr>
-  <tr><td>:computer: <strong>Primary Stack</strong></td><td>Rust · C · C++</td></tr>
-  <tr><td>:books: <strong>Method</strong></td><td>Systematic documentation — structured notes, source analysis, practice records</td></tr>
-  <tr><td>:telescope: <strong>Direction</strong></td><td>Continuously refining systems capabilities, targeting Rust open-source contributions</td></tr>
+  <tr><td><strong>Core Focus</strong></td><td>HFT low-latency engineering — kernel tuning, CPU pinning, cache-line optimization</td></tr>
+  <tr><td><strong>Active Research</strong></td><td>Linux kernel internals · eBPF/BPF observability · DPDK/AF_XDP · lock-free data structures</td></tr>
+  <tr><td><strong>Primary Stack</strong></td><td>Rust · C · C++</td></tr>
+  <tr><td><strong>Method</strong></td><td>Systematic documentation — structured notes, kernel source analysis, hands-on lab records</td></tr>
+  <tr><td><strong>Direction</strong></td><td>持续夯实系统能力，目标是 Rust 开源上游贡献</td></tr>
 </table>
 
 <hr>
@@ -127,21 +132,21 @@
       <p>Languages</p>
       <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"><br><br>
       <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"><br><br>
-      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"><br><br>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C++"><br><br>
+      <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
     </td>
     <td>
-      <p>Systems & Tools</p>
+      <p>Systems &amp; Tools</p>
       <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"><br><br>
       <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"><br><br>
-      <img src="https://img.shields.io/badge/GNU_Make-427819?style=for-the-badge&logo=gnu&logoColor=white" alt="Make"><br><br>
-      <img src="https://img.shields.io/badge/GCC-FF8800?style=for-the-badge&logo=gnu&logoColor=white" alt="GCC">
+      <img src="https://img.shields.io/badge/eBPF-FF6600?style=for-the-badge" alt="eBPF"><br><br>
+      <img src="https://img.shields.io/badge/DPDK-000000?style=for-the-badge" alt="DPDK">
     </td>
     <td>
       <p>Domains</p>
       <img src="https://img.shields.io/badge/Linux_Kernel-000000?style=for-the-badge&logo=linux&logoColor=white" alt="Kernel"><br><br>
-      <img src="https://img.shields.io/badge/eBPF-FF6600?style=for-the-badge" alt="eBPF"><br><br>
-      <img src="https://img.shields.io/badge/DPDK-000000?style=for-the-badge" alt="DPDK"><br><br>
+      <img src="https://img.shields.io/badge/Networking-2F6FEB?style=for-the-badge" alt="Networking"><br><br>
+      <img src="https://img.shields.io/badge/Quant-F0CD46?style=for-the-badge" alt="Quant"><br><br>
       <img src="https://img.shields.io/badge/HFT-F0CD46?style=for-the-badge" alt="HFT">
     </td>
   </tr>
@@ -149,11 +154,38 @@
 
 <hr>
 
-<!-- Featured Project -->
-<h3>Featured Project</h3>
-<p><a href="https://github.com/cshonor/hft-embedded-linux-study"><strong>hft-embedded-linux-study</strong></a> &nbsp; — &nbsp; 25 modules · HFT low-latency + embedded Linux knowledge chain</p>
-<blockquote>Computer Architecture &rarr; OS Kernel &rarr; eBPF Observability &rarr; Async Programming &rarr; HFT Engineering</blockquote>
-<p>Comprehensive learning notes, source code analysis, and practice records across C, C++, Linux kernel internals, and embedded systems development. Structured catalog with iterative updates and automated Git commits.</p>
+<!-- Flagship Project -->
+<h3>Flagship Project</h3>
+<p><a href="https://github.com/cshonor/hft-embedded-linux-study"><strong>hft-embedded-linux-study</strong></a> &nbsp;—&nbsp; <strong>34 modules</strong> · 8,000+ notes · HFT low-latency + embedded Linux</p>
+<blockquote>递进主轴：硬件底层 → 编程语言 → Linux 系统 → 驱动/设备树 → 嵌入式工程 → 网络栈 → 性能工具 → HFT 上层业务</blockquote>
+<p><code>00</code>–<code>20</code> 编号即学习顺序，<code>.5</code> / <code>.6</code> / <code>.7</code> 不是子模块，而是<strong>现代补丁层</strong>——经典书基于 2.6/3.x 内核，这些模块补齐 5.x/6.x 的真实实现（bootmem→memblock、SLAB→SLUB、LRU→MGLRU、page→folio）。</p>
+<p><strong>动手线 L0 → L5</strong>（项目本身就是路径，不是读完书再做）：</p>
+<table class="ladder">
+  <tr><td>L0</td><td>自实现 <code>malloc</code> + 对齐/合并 benchmark</td><td>能解释 chunk header / bins / <code>M_MMAP_THRESHOLD</code></td></tr>
+  <tr><td>L1</td><td>多线程 TCP echo server（epoll ET + 线程池）</td><td>p99 &lt; 200μs，能画出请求完整路径</td></tr>
+  <tr><td>L2</td><td><code>perf</code> 定位并消除一次真实抖动</td><td>火焰图 + <code>perf stat</code> 说清瓶颈归属</td></tr>
+  <tr><td>L3</td><td>UDP 组播行情接收器（含丢包统计）</td><td>10 万 pps 下<strong>零丢包</strong>，能说出丢在哪一层</td></tr>
+  <tr><td>L4</td><td>SPSC 无锁 ring（padding 前后对比）</td><td>单跳 &lt; 100ns，p99 &lt; 200ns，批量消费版更快</td></tr>
+  <tr><td>L5</td><td>三进程 FeedHandler → Book → Strategy</td><td>软件栈 tick-to-trade <strong>p99 &lt; 10μs</strong>（自测环境如实记录）</td></tr>
+</table>
+<blockquote>调试与开发同权重：右列那些指标不是靠感觉判断的，只能靠工具测出来。三层顺序固定——先让它对（gdb/strace/ASan/KASAN），再让它快（perf/eBPF），最后让它可观测（bpftrace + BPF 工具谱系）。<br>
+ARM64 汇编在 L4 第一次变现：x86 是 TSO 强序，<code>acquire/release</code> 编译成零指令——「忘了写 <code>memory_order</code>」在 x86 上常常碰巧能跑；ARM64 弱序，<code>ldar</code>/<code>stlr</code> 少一条就直接崩。</blockquote>
+<p><a href="https://cshonor.github.io/hft-embedded-linux-study/">在线阅读</a> · <a href="https://github.com/cshonor/hft-embedded-linux-study#模块总览编号--学习顺序">模块总览 · 学习路线 · 全部交付项目</a></p>
+
+<hr>
+
+<!-- Selected Repositories -->
+<h3>Selected Repositories</h3>
+<table class="repos">
+  <tr><td><a href="https://github.com/cshonor/hft-embedded-linux-study">hft-embedded-linux-study</a></td><td>11</td><td>主线仓库：HFT 低延迟 + 内核/MM/并发 + 嵌入式飞控双线笔记</td></tr>
+  <tr><td><a href="https://github.com/cshonor/golang-gate">golang-gate</a></td><td>8</td><td>Go 后端系统进阶：语法、并发、内存、网络底层原理</td></tr>
+  <tr><td><a href="https://github.com/cshonor/Quant-AI-Foundations">Quant-AI-Foundations</a></td><td>7</td><td>多因子量化 / 智能体开发 / 期权期货随机金融的数学与 CS 基座</td></tr>
+  <tr><td><a href="https://github.com/cshonor/Computer-Networking">Computer-Networking</a></td><td>6</td><td>网络原理、Socket 编程、TCP/IP 底层、服务端网络问题排查</td></tr>
+  <tr><td><a href="https://github.com/cshonor/cpp-learning-notes">cpp-learning-notes</a></td><td>3</td><td>C / C++ 基础与进阶，配套可运行代码</td></tr>
+  <tr><td><a href="https://github.com/cshonor/stm32-rtos">stm32-rtos</a></td><td>3</td><td>STM32 + RTOS 嵌入式开发</td></tr>
+  <tr><td><a href="https://github.com/cshonor/LDD-">LDD-</a></td><td>1</td><td>Linux 内核模块与设备驱动开发</td></tr>
+  <tr><td><a href="https://github.com/cshonor/ebpf-gate">ebpf-gate</a></td><td>1</td><td>eBPF / libbpf / bpftrace 观测实验</td></tr>
+</table>
 
 <hr>
 
@@ -166,22 +198,29 @@
   </script>
   <pre class="mermaid" style="background:none;border:none;text-align:center;">
 graph LR
-    A[Computer Architecture] --> B[OS Kernel]
-    B --> C[eBPF Observability]
-    C --> D[Async Programming]
-    D --> E[HFT Engineering]
+    A[00 硬件底层&lt;br/&gt;Digital Logic · CPU] --&gt; B[01-02 语言与系统&lt;br/&gt;C · CMake · 计算机系统]
+    B --&gt; C[03-04 用户态&lt;br/&gt;TLPI · UNP · 调试 · C++]
+    C --&gt; D[05-06 内核&lt;br/&gt;LKD · MM · 调试]
+    D --&gt; E[07-10 嵌入式&lt;br/&gt;ARM · Boot · 驱动 · 飞控]
+    D --&gt; F[11-14 HFT&lt;br/&gt;TCP/IP · 内核网络栈 · DPDK]
+    F --&gt; G[06.6-06.7 观测&lt;br/&gt;eBPF · BPF 工具]
+    G --&gt; H[15-20 拓展&lt;br/&gt;体系结构 · ULK3 · Rust · LLVM]
+    E --&gt; H
   </pre>
 </div>
 
 <details>
-<summary>:memo: Module Breakdown</summary>
-<table>
-  <tr><td>01</td><td>Computer Architecture</td><td>CPU cache hierarchy, memory model, instruction pipeline</td></tr>
-  <tr><td>02</td><td>Operating Systems</td><td>Process scheduling, memory management, system calls</td></tr>
-  <tr><td>03</td><td>Performance Observability</td><td>eBPF tracing, profiling, hotspot analysis</td></tr>
-  <tr><td>04</td><td>High-Concurrency Programming</td><td>Event-driven I/O, lock-free structures, zero-copy</td></tr>
-  <tr><td>05</td><td>HFT Engineering</td><td>Kernel bypass (DPDK), CPU pinning, cache optimization</td></tr>
-</table>
+  <summary><b>模块总览（编号 = 学习顺序）</b></summary>
+  <table class="modules">
+    <tr><td>1</td><td><code>00</code></td><td>数字逻辑与 CPU：组合/时序电路、CPU 词汇</td></tr>
+    <tr><td>2</td><td><code>01</code> <code>01.5</code> <code>01.7</code> <code>02</code></td><td>C 语言与指针 · CMake 构建 · 三平台工具链互译 · 程序=机器（栈/缓存/VM/并发）</td></tr>
+    <tr><td>3</td><td><code>03</code> <code>03.5</code> <code>03.6</code> <code>04</code></td><td>TLPI 用户态系统编程 · UNP Socket API · gdb/strace/ASan/TSan · Modern C++</td></tr>
+    <tr><td>4</td><td><code>05</code> <code>05.5</code> <code>05.6</code> <code>06</code> <code>06.5</code></td><td>LKD 内核入门 · 现代内核非 MM · KASAN/KGDB/Ftrace · Gorman MM · SLUB/MGLRU/DAMON</td></tr>
+    <tr><td>5A</td><td><code>07</code> <code>08</code> <code>09</code> <code>10</code></td><td>ARM/AArch64 · U-Boot/内核构建/rootfs · 驱动与设备树 · PID/姿态/飞控</td></tr>
+    <tr><td>5B</td><td><code>11</code> <code>11.5</code> <code>12</code> <code>12.5</code> <code>13</code> <code>14</code></td><td>Stevens TCP/IP · Wireshark 抓包实战 · Rosen 内核网络栈 · XDP/io_uring · DPDK/AF_XDP · HFT 工程</td></tr>
+    <tr><td>5B</td><td><code>06.6</code> <code>06.6.5</code> <code>06.7</code></td><td>eBPF 原理（Liz Rice）· 系统性能方法论（Gregg）· BPF 性能工具（Gregg）</td></tr>
+    <tr><td>6</td><td><code>15</code> <code>16</code> <code>17</code> <code>18</code> <code>19</code> <code>20</code></td><td>体系结构加深 · ULK3 内核深度 · Rust 基础 · Rust 量化 · 市场微观结构 · LLVM 编译器</td></tr>
+  </table>
 </details>
 
 <hr>
