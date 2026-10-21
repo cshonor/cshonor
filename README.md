@@ -10,6 +10,7 @@
 <br>
 
 [![Study Repo](https://img.shields.io/badge/Study_Repo-hft--embedded--linux--study-F0CD46?style=flat-square)](https://github.com/cshonor/hft-embedded-linux-study)
+[![Email](https://img.shields.io/badge/Email-1239263644%40qq.com-F0CD46?style=flat-square)](mailto:1239263644@qq.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=cshonor&style=flat-square&color=F0CD46&label=Profile+Views)](https://github.com/cshonor)
 
 </div>
@@ -29,6 +30,19 @@ I build **ultra-low-latency trading systems** for high-frequency quantitative tr
 | **Primary Stack** | Rust · C · C++ |
 | **Method** | Systematic documentation — structured notes, kernel source analysis, hands-on lab records |
 | **Direction** | 持续夯实系统能力，目标是 Rust 开源上游贡献 |
+| **Contact** | 📮 [1239263644@qq.com](mailto:1239263644@qq.com) |
+
+---
+
+### Now · 进行中
+
+> 每条都是仓库里能翻到对应产出的实线，不是愿望清单。
+
+- 📖 **TLPI 全 64 章**逐节精读笔记 — 持续产出，优先 HFT/嵌入式高价值章节
+- 🧠 **LKD3rd 对照主线** — 20 章 151 篇，配合 5.x/6.x 内核源码逐机制核对
+- ⚙️ **STM32 + RTOS** — 寄存器级裸机 → FreeRTOS → Zephyr，坚持 clang + lld 工具链
+- 🔍 **eBPF** — Raspberry Pi 5 实验平台，bpftrace / libbpf / ring buffer labs
+- 🦀 **Rust** — 基础 → 量化 → 无锁并发，目标上游贡献
 
 ---
 
@@ -44,7 +58,7 @@ I build **ultra-low-latency trading systems** for high-frequency quantitative tr
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
@@ -82,7 +96,7 @@ I build **ultra-low-latency trading systems** for high-frequency quantitative tr
 
 ### Flagship Project
 
-[**hft-embedded-linux-study**](https://github.com/cshonor/hft-embedded-linux-study) &nbsp;—&nbsp; **34 modules** · 8,000+ notes · HFT low-latency + embedded Linux
+[**hft-embedded-linux-study**](https://github.com/cshonor/hft-embedded-linux-study) &nbsp;—&nbsp; **34 modules** · **8,000+ notes** · HFT low-latency + embedded Linux
 
 > **递进主轴：** 硬件底层 → 编程语言 → Linux 系统 → 驱动/设备树 → 嵌入式工程 → 网络栈 → 性能工具 → HFT 上层业务
 
@@ -114,8 +128,8 @@ I build **ultra-low-latency trading systems** for high-frequency quantitative tr
 | [golang-gate](https://github.com/cshonor/golang-gate) | 8 | Go 后端系统进阶：语法、并发、内存、网络底层原理 |
 | [Quant-AI-Foundations](https://github.com/cshonor/Quant-AI-Foundations) | 7 | 多因子量化 / 智能体开发 / 期权期货随机金融的数学与 CS 基座 |
 | [Computer-Networking](https://github.com/cshonor/Computer-Networking) | 6 | 网络原理、Socket 编程、TCP/IP 底层、服务端网络问题排查 |
+| [stm32-rtos](https://github.com/cshonor/stm32-rtos) | 3 | STM32 + RTOS 嵌入式开发：寄存器级裸机 → FreeRTOS → Zephyr |
 | [cpp-learning-notes](https://github.com/cshonor/cpp-learning-notes) | 3 | C / C++ 基础与进阶，配套可运行代码 |
-| [stm32-rtos](https://github.com/cshonor/stm32-rtos) | 3 | STM32 + RTOS 嵌入式开发 |
 | [LDD-](https://github.com/cshonor/LDD-) | 1 | Linux 内核模块与设备驱动开发 |
 | [ebpf-gate](https://github.com/cshonor/ebpf-gate) | 1 | eBPF / libbpf / bpftrace 观测实验 |
 
@@ -141,7 +155,7 @@ graph LR
 | Phase | 模块 | Key Topics |
 |:-----:|:-------|:-----------|
 | **1** | `00` | 数字逻辑与 CPU：组合/时序电路、CPU 词汇 |
-| **2** | `01` `01.5` `01.7` `02` | C 语言与指针 · CMake 构建 · 三平台工具链互译 · 程序=机器（栈/缓存/VM/并发） |
+| **2** | `01` `01.5` `01.7` `01.8` `02` | C 语言与指针 · CMake 构建 · 三平台工具链互译 · Shell/Bash · 程序=机器（栈/缓存/VM/并发） |
 | **3** | `03` `03.5` `03.6` `04` | TLPI 用户态系统编程 · UNP Socket API · gdb/strace/ASan/TSan · Modern C++ |
 | **4** | `05` `05.5` `05.6` `06` `06.5` | LKD 内核入门 · 现代内核非 MM · KASAN/KGDB/Ftrace · Gorman MM · SLUB/MGLRU/DAMON |
 | **5A** | `07` `08` `09` `10` | ARM/AArch64 · U-Boot/内核构建/rootfs · 驱动与设备树 · PID/姿态/飞控 |
@@ -184,6 +198,8 @@ graph LR
 ---
 
 <div align="center">
+
+📮 **Contact** · [1239263644@qq.com](mailto:1239263644@qq.com) · [GitHub @cshonor](https://github.com/cshonor)
 
 **保持思考，坚持编码，沿着既定路线稳步精进。**
 
